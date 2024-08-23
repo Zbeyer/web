@@ -1,0 +1,124 @@
+/* Reusable CSS Template */
+:root {
+
+  --font-family: Verdana, sans-serif;
+  --background: #111;
+  --foreground: #ddd;
+  --gold: #a85;
+  --linkColor: #f90;
+  --linkHoverColor: #fd8;
+  --content900: 900px;
+  --content1200: 1200px;
+  --content1400: 1400px;
+  --light: #ddd;
+  --greyFG: #757575;
+  --redFG: #e02;
+  --oraFG: #b50;
+  --yelFG: #770;
+  --greFG: #085;
+  --bluFG: #07b;
+  --indFG: #85d;
+  --vioFG: #d08;
+  --greyBG: #eee;
+  --redBG: #fcd;
+  --oraBG: #fec;
+  --yelBG: #ffd;
+  --greBG: #cfe;
+  --bluBG: #cef;
+  --indBG: #ecf;
+  --vioBG: #fce;
+}
+
+* {
+  /* wild cards get applied to all elements */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: var(--foreground);
+  font-family: var(--font-family);
+  font-size: 120%;
+}
+
+header, footer {
+  text-align: center;
+}
+
+body, header, main, footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: var(--background-color);
+}
+
+.flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 0 0;
+}
+
+a,
+a:visited,
+a:active {
+  font-weight: bold;
+  padding: 1em 2em;
+  margin: 0 0 1em 0;
+  line-height: 5em;
+  border-radius: 13px;
+
+  color: var(--linkColor);
+  border: solid 2px var(--linkColor);
+
+}
+a:hover {
+  color: var(--linkHoverColor);
+  border: solid 2px var(--linkHoverColor);
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4,
+h5,
+h6,
+a,
+p,
+span {
+  font-size: 1em;
+}
+
+
+header {
+  padding: 0.2em;
+  background: #003050;
+}
+
+footer {
+  padding: 0.25em;
+  background: #002030;
+}
+
+img {
+  object-fit: scale-down;
+}
+
+a,
+a:visited,
+a:active {
+  color: var(--linkColor);
+}
+a:hover {
+  color: var(--linkHoverColor);
+}
